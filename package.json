@@ -1,0 +1,23 @@
+{
+    "name": "new-feactures-typescript",
+    "version": "1.0.0",
+    "description": "Example project for typescript new feactures",
+    "main": "dist/app.js",
+    "scripts": {
+        "build": "./node_modules/typescript/bin/tsc",
+        "start": "npm run build && node dist/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lgabrielvleon/new-feactures-typescript.git"
+    },
+    "author": "Lucas Vasquez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lgabrielvleon/new-feactures-typescript/issues"
+    },
+    "homepage": "https://github.com/lgabrielvleon/new-feactures-typescript#readme",
+    "devDependencies": {
+        "typescript": "^4.3.5"
+    }
+}
